@@ -1,0 +1,201 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    --color:rgb(255, 227, 186);
+    font-family: "Montserrat", sans-serif;
+}
+main{
+    margin: auto;
+    width: 100%;
+    height: 640px;
+    
+}
+#encabezado{
+    background-color: var(--color);
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header{
+    font-family: "Seymour One", sans-serif;
+    font-size: 30pt;
+    color: brown;
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+
+}
+#menu li{
+    margin-left: 40px;
+}
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+#menu a:hover{
+    color: rgb(216, 13, 108);
+    transition: all 400ms ease-in;
+}
+ol{
+    display: flex;
+}
+li{
+    margin-right: 10px;
+    list-style: none;
+}
+#tabla{
+    text-align: center;
+}
+#tabla h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+tr:nth-of-type(1)>th{
+    background-color: var(--color);
+}
+tr:nth-of-type(2)>th{
+    background-color: rgb(182, 33, 33);
+    color: white;
+}
+tr:nth-of-type(3)>th{
+    background-color: rgb(182, 33, 33);
+    color: white;
+}
+tr:nth-of-type(3)>td{
+    background-color: var(--color);
+    
+}
+tr:nth-of-type(4)>th{
+    background-color: rgb(182, 33, 33);
+    color: white;
+}
+tr:nth-of-type(4)>td{
+    background-color: var(--color);
+}
+tr:nth-of-type(5)>th{
+    background-color: rgb(182, 33, 33);
+    color: white;
+}
+tr:nth-of-type(5)>td{
+    background-color: var(--color);
+}
+tr:nth-of-type(6)>th{
+    background-color: rgb(182, 33, 33);
+    color: white;
+}
+tr:nth-of-type(6)>td{
+    background-color: var(--color);
+}
+tr:nth-of-type(7)>th{
+    background-color: rgb(182, 33, 33);
+    color: white;
+}
+tr:nth-of-type(7)>td{
+    background-color: var(--color);
+}
+tr:nth-of-type(8)>th{
+    background-color: rgb(182, 33, 33);
+    color: white;
+}
+tr:nth-of-type(8)>td{
+    background-color: var(--color);
+}
+tr:nth-of-type(9)>th{
+    background-color: rgb(182, 33, 33);
+    color: white;
+}
+tr:nth-of-type(9)>td{
+    background-color: var(--color);
+}
+tr:nth-of-type(10)>th{
+    background-color: rgb(182, 33, 33);
+    color: white;
+}
+tr:nth-of-type(10)>td{
+    background-color: var(--color);
+}
+tr:nth-of-type(11)>th{
+    background-color: rgb(182, 33, 33);
+    color: white;
+}
+tr:nth-of-type(11)>td{
+    background-color: var(--color);
+}
+table{
+    font-size: 10pt;
+    
+}
+
+table,th, td{
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 5px;
+    width: 150px;
+}
+aside{
+    background-color: var(--color);
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 40px;
+}
+.caja select{
+    width: 100%;
+}
+.caja input{
+    width: 100%;
+}
+.caja button{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(209, 8, 8);
+    border: none;
+    border-radius: 40px;
+}
+.caja button:hover{
+    width: 100%;
+    height: 45px;
+    color: white;
+    background-color: rgb(143, 8, 8);
+    border: none;
+    border-radius: 40px;
+    transition: all 150ms ease-in;
+}
+#columna{
+    column-count: 4;
+    column-gap: 50px;
+    background-color: rgb(182, 33, 33);
+    height: 170px;
+    padding: 10px;
+    font-size: 13px;
+    color: white;
+    
+}
+#columna li{
+    margin-bottom: 3px;
+}
+span{
+    font-family: "Seymour One", sans-serif;
+    font-size: 30pt;
+    
+}
+.linea{
+    width: 75%;
+}
